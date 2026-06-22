@@ -125,13 +125,13 @@
 
 Ниже представлен пример сравнения фактических значений энергопотребления и прогноза, полученного моделью XGBoost.
 
-![Actual vs XGBoost Forecast](figures/xgboost_forecast_vs_actual.png)
+![Distribution of XGBoost Forecast Errors](figures/xgboost_error_distribution.png)
 
 Рисунок показывает, что модель достаточно точно повторяет динамику реального энергопотребления и корректно отслеживает основные колебания временного ряда.
 
 Также был выполнен анализ распределения ошибок прогнозирования.
 
-![Distribution of XGBoost Forecast Errors](figures/xgboost_error_distribution.png)
+![Actual vs XGBoost Forecast](figures/xgboost_forecast_vs_actual.png)
 
 Большинство ошибок сосредоточено вблизи нуля, что свидетельствует о хорошем качестве построенной модели.
 
